@@ -1,0 +1,29 @@
+{
+  "name": "ng-simple-exception",
+  "version": "1.0.0",
+  "description": "angular simple exception post backs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kfegen/ng-simple-exception.git"
+  },
+  "keywords": [
+    "angular",
+    "exception"
+  ],
+  "author": "kfegen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kfegen/ng-simple-exception/issues"
+  },
+  "homepage": "https://github.com/kfegen/ng-simple-exception",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.2.0"
+  }
+}
