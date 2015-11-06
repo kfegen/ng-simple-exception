@@ -2,7 +2,7 @@
     'use strict';
     angular.module('simpleException', [])
     .provider('simpleExceptionConfig', function () {
-      this.postUrl = 'WebAPI/HLP/api/SiteError';
+      this.postUrl = '';
 
       this.$get = [
         function() {
