@@ -4,8 +4,6 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var babel = require('gulp-babel');
-var gutil = require('gulp-util');
-var rename = require('gulp-rename');
 
 function handleError(err) {
   console.log(err.toString());
@@ -17,8 +15,6 @@ gulp.task('scripts', function () {
           presets: ['es2015']
       })).on('error', handleError)
     .pipe(concat('ng-simple-exception.min.js'))
-    // .pipe(gulp.dest('../build/'))
-    // .pipe(rename('ng-simple-exception.min.js'))
     .pipe(uglify()).on('error', gutil.log)
     .pipe(gulp.dest('../build/'));
 });
